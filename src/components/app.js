@@ -1,9 +1,13 @@
-import React, { Component } from 'react';
+import React, {Component} from 'react';
 
-export default class App extends Component {
-  render() {
-    return (
-      <div>React simple starter</div>
-    );
-  }
+import BookList from '../containers/book-list';
+
+export default class App extends Component{
+    render(){
+        return(
+            <div>
+                <BookList/>
+            </div>
+        );
+    }
 }
