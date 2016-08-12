@@ -1,4 +1,4 @@
-.search-bar{
+/*.search-bar{
     margin:20px;
     text-align:center;
 }
@@ -24,4 +24,8 @@
 
 .list-group-item:hover{
     background-color: #eee;
+}*/
+
+form a{
+    margin-left: 5px;
 }

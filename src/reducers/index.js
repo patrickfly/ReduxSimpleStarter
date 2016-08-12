@@ -1,8 +1,11 @@
 import {combineReducers} from 'redux';
-import BooksReducer from './reducer_books';
+import PostsReducer from './reducer_posts';
+import {reducer as formReducer} from 'redux-form';
+
 
 const rootReducer = combineReducers({
-    books: BooksReducer
+    posts: PostsReducer,
+    form: formReducer
 });
 
 export default rootReducer;
